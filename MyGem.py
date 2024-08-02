@@ -5,7 +5,7 @@ import google.generativeai as genai
 import os
 st.title("MYGemini")
 st.header("Ask question",divider='rainbow')
-API_KEY = "AIzaSyCgVzE1OsxtrMr61B8CBdAdcHmTBDShOHg"
+API_KEY = "your api key"
 genai.configure(api_key=API_KEY)
 generation_config = {
         "temperature": 1,
